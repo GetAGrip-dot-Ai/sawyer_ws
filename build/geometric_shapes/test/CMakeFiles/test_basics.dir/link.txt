@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/test_basics.dir/test_basics.cpp.o  -o /home/sridevi/sawyer_ws/devel/lib/geometric_shapes/test_basics   -L/home/sridevi/sawyer_ws/build/gtest  -Wl,-rpath,/home/sridevi/sawyer_ws/build/gtest:/home/sridevi/sawyer_ws/build/gtest/lib ../../gtest/lib/libgtest.so -lpthread 

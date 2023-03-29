@@ -1,0 +1,40 @@
+<package>
+  <name>sawyer_moveit_development</name>
+  <version>5.3.0</version>
+  <description>
+    sawyer_moveit_development containing custom scipts to command the robot
+  </description>
+
+  <maintainer email="rsdk.support@rethinkrobotics.com">
+    Rethink Robotics Inc.
+  </maintainer>
+  <license>Apache 2.0</license>
+  <url type="website">http://sdk.rethinkrobotics.com/intera/</url>
+  <url type="repository">
+    https://github.com/RethinkRobotics/sawyer_moveit
+  </url>
+  <url type="bugtracker">
+    https://github.com/RethinkRobotics/sawyer_moveit/issues
+  </url>
+  <author>Ian McMahon</author>
+
+
+  <run_depend>sawyer_moveit_config</run_depend>
+  <run_depend>sawyer_moveit</run_depend>
+  <run_depend>moveit_ros_move_group</run_depend>
+  <run_depend>moveit_planners_ompl</run_depend>
+  <run_depend>moveit_kinematics</run_depend>
+  <run_depend>moveit_ros_visualization</run_depend>
+  <run_depend>interactive_markers</run_depend>
+  <run_depend>moveit_ros_planning_interface</run_depend>
+  <run_depend>tf2_geometry_msgs</run_depend>
+  <run_depend>moveit_visual_tools</run_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>xacro</run_depend>
+  <build_depend>sawyer_description</build_depend>
+  <run_depend>sawyer_description</run_depend>
+  
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>

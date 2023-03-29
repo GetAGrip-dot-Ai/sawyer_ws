@@ -1,0 +1,8 @@
+prefix=/home/sridevi/sawyer_ws/devel
+
+Name: commander_cpp
+Description: Description of commander_cpp
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

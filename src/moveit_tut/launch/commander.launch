@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="commander" pkg="moveit_tut" type="commander.py" respawn="false" output="screen">
+  </node>
+
+</launch>
